@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
 
     <TextView
         android:id="@+id/currentTextView"
@@ -30,7 +30,7 @@
         android:textSize="20dp"
         app:layout_constraintEnd_toStartOf="@+id/slashTextView"
         app:layout_constraintTop_toTopOf="@+id/allTextView"
-        tools:text="2" />
+        android:text="2" />
 
     <TextView
         android:id="@+id/slashTextView"
@@ -40,7 +40,7 @@
         android:textSize="20dp"
         app:layout_constraintEnd_toStartOf="@+id/allTextView"
         app:layout_constraintTop_toTopOf="@+id/allTextView"
-        tools:text="/" />
+        android:text="/" />
 
     <TextView
         android:id="@+id/allTextView"
@@ -52,7 +52,7 @@
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="10" />
+        android:text="10" />
 
     <RadioGroup
         android:id="@+id/radios"
@@ -69,25 +69,25 @@
             android:id="@+id/firstRB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="1" />
+            android:text="1" />
 
         <RadioButton
             android:id="@+id/secondRB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="2" />
+            android:text="2" />
 
         <RadioButton
             android:id="@+id/thirdRB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="3" />
+            android:text="3" />
 
         <RadioButton
             android:id="@+id/fourthRB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="4" />
+            android:text="4" />
     </RadioGroup>
 
     <Button
